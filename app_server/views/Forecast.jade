@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    title FOOD BLOG
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css')
+    style
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+      .container {
+        padding: 2rem;
+      }
+      .forecast {
+        background-color: #f8f9fa;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+      }
+      footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+
+  body
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+      .container
+        a.navbar-brand(href='#') FOOD Page
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNav.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a.nav-link(href='/') Home
+            li.nav-item
+              a.nav-link(href='/articles') Articles
+            li.nav-item
+              a.nav-link(href='/about') About
+            li.nav-item
+              a.nav-link(href='/contact') Contact
+
+    header
+      h1 Welcome to Our FOOD Page
+    .container
+      .forecast
+        h2 FOOD blog
+        p Welcome to our FOOD page! Stay prepared with our accurate and reliable food blogs for your region and beyond. Our team of chefs and data food cretics work around the clock to provide you with up-to-date blogs, ensuring you have the information you need to plan your day.
+       
+      .forecast
+        h2 Next Week's FOOD updates
+        p We understand the importance of accurate FOOD information for outdoor activities, travel plans, and safety precautions. Our commitment is to deliver food blogs that you can rely on, so you can go about your day with confidence. No matter the season, our comprehensive weather data will help you stay ahead of changing conditions and adapt your plans accordingly.
+    footer
+     
+
+script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
+script(src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js', integrity='sha384-pzjw5f+ua7NP4g6HvCt38i6kFX8Gb4AQ7fFZz3l8x2G/KvcUOp6pCtKU6U8fwn6B', crossorigin='anonymous')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', integrity='sha384-pzjw5f+ua7NP4g6HvCt38i6kFX8Gb4AQ7fFZz3l8x2G/KvcUOp6pCtKU6U8fwn6B', crossorigin='anonymous')
